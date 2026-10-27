@@ -1,0 +1,15 @@
+{
+	"name": "data-fact-uberproject-dev",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "francecentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "efc6c976-8a05-43ba-a5ee-565cf7a7ea2d",
+		"tenantId": "189dc61c-769b-4048-8b0f-6de074bba26c"
+	}
+}
