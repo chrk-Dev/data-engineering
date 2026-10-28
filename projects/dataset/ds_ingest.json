@@ -6,7 +6,7 @@
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
-			"p_file": {
+			"out_file": {
 				"type": "string"
 			}
 		},
