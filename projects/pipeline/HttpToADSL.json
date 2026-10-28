@@ -54,7 +54,14 @@
 			{
 				"name": "ForEach1",
 				"type": "ForEach",
-				"dependsOn": [],
+				"dependsOn": [
+					{
+						"activity": "file_array",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
 				"userProperties": []
 			}
 		],
