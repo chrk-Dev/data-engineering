@@ -15,6 +15,10 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@dataset.out_file",
+					"type": "Expression"
+				},
 				"folderPath": "ingestion",
 				"fileSystem": "raw"
 			}
