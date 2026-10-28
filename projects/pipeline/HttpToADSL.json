@@ -47,7 +47,8 @@
 					"dataset": {
 						"referenceName": "ds_files",
 						"type": "DatasetReference"
-					}
+					},
+					"firstRowOnly": false
 				}
 			}
 		],
