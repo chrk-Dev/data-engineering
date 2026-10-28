@@ -101,7 +101,13 @@
 							"outputs": [
 								{
 									"referenceName": "ds_ingest",
-									"type": "DatasetReference"
+									"type": "DatasetReference",
+									"parameters": {
+										"out_file": {
+											"value": "@item().file",
+											"type": "Expression"
+										}
+									}
 								}
 							]
 						}
