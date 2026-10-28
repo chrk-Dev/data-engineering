@@ -100,7 +100,7 @@
 							],
 							"outputs": [
 								{
-									"referenceName": "ds_files",
+									"referenceName": "ds_ingest",
 									"type": "DatasetReference"
 								}
 							]
