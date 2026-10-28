@@ -5,6 +5,11 @@
 			"referenceName": "ls_github",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"p_file": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "Json",
 		"typeProperties": {
