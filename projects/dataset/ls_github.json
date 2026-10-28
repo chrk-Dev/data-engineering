@@ -15,7 +15,10 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "anshlambagit/Uber_Data_Engineer_Project/refs/heads/main/Data/map_cities.json"
+				"relativeUrl": {
+					"value": "anshlambagit/Uber_Data_Engineer_Project/refs/heads/main/Data/@{dataset().p_file}",
+					"type": "Expression"
+				}
 			}
 		},
 		"schema": {}
